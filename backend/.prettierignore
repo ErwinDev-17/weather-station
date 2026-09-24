@@ -1,0 +1,14 @@
+# Archivos que no se pueden dar formato
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+**/*.html
+
+src/
+node_modules/
