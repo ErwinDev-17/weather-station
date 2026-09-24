@@ -2,3 +2,5 @@ allowBuilds:
   '@parcel/watcher': true
   bcrypt: true
   unrs-resolver: false
+minimumReleaseAgeExclude:
+  - prettier@3.9.9
