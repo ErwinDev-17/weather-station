@@ -8,11 +8,10 @@ export default defineConfig([
   },
   {
     files: ['**/*.{js,mjs,cjs}'],
-    extends: ['js/recommended'],
+    extends: [js.configs.recommended],
     languageOptions: {
       globals: globals.node,
       ecmaVersion: 'latest',
-      sourceType: 'commonjs',
     },
     rules: {},
   },
